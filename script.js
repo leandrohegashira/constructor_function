@@ -2,7 +2,7 @@
 
 function Dom(seletor){
 
-  const elementList = document.querySelectorAll('li')
+  const elementList = document.querySelectorAll(seletor)
 
   this.element = elementList
 
